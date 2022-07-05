@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>ثبت نام</title>
+</head>
+<body dir="rtl">
+    <!-- start header -->
+    <div class="mynavbar">
+        <a  class="a-main" href="../pages/home.html">صفحه اصلی</a>
+        <div class="dropdownheader" >
+            <button class="dropbtn" >محصولات 
+                <i class="fa fa-caret-down" ></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#"> اپل</a>
+                <a href="#">سامسونگ</a>
+                <a href="#">پیشنهاد ویژه</a>
+            </div>
+        </div>
+        <div>
+        <a  class="active a-main" href="../pages/registry.html">ورود/ثبت نام</a>
+            <img src="../images/person.jpg" class="headerimg">
+            <button type="button" class="btn btn-primary lightbutton"><a href="../pages/shoppingcart.html"> سبد خرید
+                <i class="fa fa-shopping-basket" ></i></a></button>
+        </div> 
+    </div>
+        <!-- end header -->
+        <div class="bodydiv">
+            <br>
+            <br>
+            <div class="contentbox" style="width: 60%;">
+                <h2 class="title_block" style="height:50px; padding-top:10px; text-align:center;">ایجاد حساب کاربری</h2>
+                <form style="font-size: 20px;" method="">
+                 <a>* نام: </a><br>
+                    <input type="text" name="fname" required> <br>
+                    <a>* نام خانوادگی: </a><br>
+                    <input type="text" name="lname" required> <br>
+                    <a> جنسیت: </a> <input type="radio" name="gender" value="man"> <a> آقا </a>
+                    <input type="radio" name="gender" value="women"> <a> خانم </a>
+                   <br>
+                   <a>* ایمیل: </a><br>
+                   <input type="email" name="email" required> <br>
+                   <a>* نام کاربری: </a><br>
+                   <input type="text" name="username" required> <br>
+                   <a>* رمز عبور: </a><br>
+                   <input type="password" name="pass" required> <br>
+                   <a>*تکرار رمز عبور: </a><br>
+                   <input type="password" name="pass2" required> <br>
+                   <input class="more-btn btn" style="font-size:18px;color: white ; margin-right: 150px;" type="submit" value="ثبت نام" >
+                </form>
+            </div>
+            <br/>
+            <br/>
+            </div>
+        </div>
+        <!-- start footer -->
+        <div class="footer-div">
+            <div style="float: right;margin:50px 100px 0 0;">
+                <p> صفحه اصلی </p><br/>
+                <p> تماس با ما </p><br/>
+                <p> درباره ما </p><br/>
+                <p> آدرس: شیخ بهایی شمالی، خیابان امداد غربی، پلاک 5 واحد اول شرقی</p><br/>
+            </div>
+            <img src="../images/map.png">
+        </div>
+        <!-- end footer -->
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
